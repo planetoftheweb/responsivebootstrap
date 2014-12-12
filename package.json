@@ -1,0 +1,19 @@
+{
+  "name": "bootCarousel",
+  "version": "0.0.1",
+  "description": "Assets for my Bootstrap Layouts: Carousel course at Lynda.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/planetoftheweb/bootcarousel.git"
+  },
+  "author": "Ray Villalobos",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-jsbeautifier": "0.0.4",
+    "gulp-jshint": "^1.9.0",
+    "gulp-util": "^2.2.20",
+    "gulp-w3cjs": "^0.2.1",
+    "gulp-webserver": "^0.8.8",
+    "jshint-stylish": "^1.0.0"
+  }
+}
