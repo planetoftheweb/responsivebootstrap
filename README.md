@@ -1,6 +1,9 @@
 # Bootstrap Layouts: Responsive Design
 Repository for my Course on Bootstrap Layouts focusing on Responsive Design.
 
+## No Images
+__Warning:__ These files contain no images, but you can use your own images or use a placeholder website like [placehold.it](http://placehold.it/).
+
 ## Instructions
 1. Make sure you have these installed
 	- [node.js](http://nodejs.org/)
