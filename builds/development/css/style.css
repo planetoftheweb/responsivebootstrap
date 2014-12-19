@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header .navbar {
   padding: 30px 0;
+  transition: all .5s ease-out;
 }
 
 header .navbar-default {
@@ -86,6 +87,38 @@ and (max-width: 768px) {
   header .navbar-collapse.in {
     background-color: rgba(0,0,0, .5);
   }
+}
+
+/**  nav inbody **/
+
+header .inbody {
+  background: rgba(104,73,49,.9);
+}
+
+header .navbar.inbody {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+header .navbar.inbody .navbar-nav {
+  padding-top: 10px;
+}
+
+header .inbody .navbar-brand {
+  background-size: 43px;
+  background-position: top left;
+  margin-top: 5px;
+  padding-bottom: 0;
+  margin-left: 10px;
+}
+
+header .inbody .navbar-brand h1 {
+  font-size: 1.1em;
+  padding-left: 38px;
+}
+
+header .inbody .navbar-brand span.subhead {
+  display: none;
 }
 
 /**  Page **/
