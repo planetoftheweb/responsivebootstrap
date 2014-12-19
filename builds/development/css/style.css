@@ -135,7 +135,31 @@ and (max-width: 768px) {
   }
 }
 
+/**  Page -- Staff **/
 
+#staff {
+  background-color: #E4D29D;
+  background-image: linear-gradient(to bottom, #E4D29D, #CDAE50);
+}
+
+.doctor {
+  margin: 10px 0;
+}
+
+.doctor h3 {
+  font-weight: 600;
+  font-size: 1.2em;
+  color: #6F4E36;
+  padding-bottom: 5px;
+}
+
+.doctor p {
+  font-size: .8em;
+}
+
+.doctor img {
+  width: 100%;
+}
 
 /**  Footer Navigation **/
 footer .navbar-default {
