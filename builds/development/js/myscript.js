@@ -3,6 +3,7 @@ $(function() {
   "use strict";
 
   var topoffset = 50; //variable for menu height
+  var slideqty = $('#featured .item').length;
 
   //Activate Scrollspy
   $('body').scrollspy({
@@ -45,6 +46,13 @@ $(function() {
       } //target.length
     } //click function
   }); //smooth scrolling
+
+  //Automatically generate carousel indicators
+  for (var i=0; i < slideqty; i++) {
+    var insertText = '<li data-target="#featured" data-slide-to="' + i + '"></li>';
+    $('#featured ol').append(insertText);
+  }
+
 
 
   $('.carousel').carousel({
