@@ -75,16 +75,13 @@ $(function() {
     var insertText = '<li data-target="#featured" data-slide-to="' + i + '"';
     if (i === randSlide) {
       insertText += ' class="active" ';
-    } else {
-      insertText += '></li>';      
     }
+    insertText += '></li>';
     $('#featured ol').append(insertText);
   }
 
-
-
   $('.carousel').carousel({
-    interval: false
+    pause: false
   });
 
 });
