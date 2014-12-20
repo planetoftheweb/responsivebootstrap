@@ -139,7 +139,7 @@ header .inbody .navbar-brand span.subhead {
 
 .carousel.fade .item:first-child {
   top: auto;
-  opacity: 1;
+  opacity: 0;
   position: relative;
 }
 

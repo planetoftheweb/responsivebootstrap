@@ -5,7 +5,11 @@ $(function() {
   var topoffset = 50; //variable for menu height
   var slideqty = $('#featured .item').length;
   var wheight = $(window).height(); //get the height of the window
-  
+  var randSlide = Math.floor(Math.random()*slideqty);
+
+  $('#featured .item').eq(randSlide).addClass('active');
+
+
   $('.fullheight').css('height', wheight); //set to window tallness  
 
 
@@ -68,7 +72,12 @@ $(function() {
 
   //Automatically generate carousel indicators
   for (var i=0; i < slideqty; i++) {
-    var insertText = '<li data-target="#featured" data-slide-to="' + i + '"></li>';
+    var insertText = '<li data-target="#featured" data-slide-to="' + i + '"';
+    if (i === randSlide) {
+      insertText += ' class="active" ';
+    } else {
+      insertText += '></li>';      
+    }
     $('#featured ol').append(insertText);
   }
 
