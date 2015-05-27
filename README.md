@@ -26,6 +26,7 @@ This repository has branches for each of the videos in the course. You can use t
 2. Clone this repository into your local machine using the terminal (mac) or Gitbash (PC) `> git clone https://github.com/planetoftheweb/responsivebootstrap.git`
 3. CD to the folder `cd responsivebootstrap`
 4. Run `> npm-install` to install the project dependencies
+5. Run `> gulp` command to start the automation
 
 For more help setting up a comprehensive Gulp.js workflow, check out [Web Project Workflows with Gulp.js, Git, and Browserify](http://www.lynda.com/Web-Web-Design-tutorials/Web-Project-Workflows-Gulpjs-Git-Browserify/154416-2.html).
 
