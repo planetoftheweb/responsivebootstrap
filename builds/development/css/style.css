@@ -125,6 +125,7 @@ header .inbody .navbar-brand span.subhead {
 
 .carousel.fade {
   opacity: 1;
+  height: 100vh;
 }
 
 .carousel.fade .item {
@@ -161,7 +162,7 @@ header .inbody .navbar-brand span.subhead {
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 
@@ -200,7 +201,7 @@ header .inbody .navbar-brand span.subhead {
   margin-bottom: 10px;
 }
 
-@media only screen 
+@media only screen
 and (min-width: 450px)
 and (max-width: 768px) {
   .service p {
@@ -364,4 +365,3 @@ footer .navbar-nav>li a {
   text-decoration: underline;
   color: #EEC856 !important;
 }
-

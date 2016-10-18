@@ -4,14 +4,9 @@ $(function() {
 
   var topoffset = 50; //variable for menu height
   var slideqty = $('#featured .item').length;
-  var wheight = $(window).height(); //get the height of the window
   var randSlide = Math.floor(Math.random()*slideqty);
 
   $('#featured .item').eq(randSlide).addClass('active');
-
-
-  $('.fullheight').css('height', wheight); //set to window tallness  
-
 
   //replace IMG inside carousels with a background image
   $('#featured .item img').each(function() {
@@ -19,14 +14,6 @@ $(function() {
     $(this).parent().css({'background-image': 'url('+imgSrc+')'});
     $(this).remove();
   });
-
-  //adjust height of .fullheight elements on window resize
-  $(window).resize(function() {
-    wheight = $(window).height(); //get the height of the window
-    $('.fullheight').css('height', wheight); //set to window tallness  
-  });
-
-
 
   //Activate Scrollspy
   $('body').scrollspy({
@@ -56,8 +43,8 @@ $(function() {
 
   //Use smooth scrolling when clicking on navigation
   $('.navbar a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') === 
-      this.pathname.replace(/^\//,'') && 
+    if (location.pathname.replace(/^\//,'') ===
+      this.pathname.replace(/^\//,'') &&
       location.hostname === this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
