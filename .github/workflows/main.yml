@@ -21,5 +21,3 @@ jobs:
 
       - name: Copy To Branches Action
         uses: planetoftheweb/copy-to-branches@0.9.1
-        with:
-          args: -p
