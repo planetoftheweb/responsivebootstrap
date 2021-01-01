@@ -18,6 +18,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
+        with:
+          fetch-depth: 0
       - name: Copy To Branches Action
         uses: planetoftheweb/copy-to-branches@0.9.41
