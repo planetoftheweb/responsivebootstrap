@@ -20,4 +20,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Copy To Branches Action
-        uses: planetoftheweb/copy-to-branches@0.9.4
+        uses: planetoftheweb/copy-to-branches@0.9.41
