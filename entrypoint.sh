@@ -54,7 +54,7 @@ if [ ! -z "${args_branches}" ];
 then
 	ALL_THE_BRANCHES=( "${args_branches[@]}" )
 else
-  ALL_THE_BRANCHES=`git branch --list|sed 's/origin\///g'`
+  ALL_THE_BRANCHES=`git branch -r --list|sed 's/origin\///g'`
 fi
 
 # Set the KEY branch
@@ -127,7 +127,7 @@ for CURRENT_BRANCH in ${ALL_THE_BRANCHES[@]};
       # push the branch to the repository origin
       if [ "$args_action" !=  "LOCAL" ];
       then
-        git push $CURRENT_BRANCH
+        git push --set-upstream origin $CURRENT_BRANCH
       fi
 
     fi
