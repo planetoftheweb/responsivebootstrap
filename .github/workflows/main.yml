@@ -22,3 +22,12 @@ jobs:
           fetch-depth: 0
       - name: Copy To Branches Action
         uses: planetoftheweb/copy-to-branches@0.9.56
+        env:
+          GITHUB_EMAIL: "ray@planetoftheweb.com"
+          GITHUB_USERNAME: "planetoftheweb"
+          DEPLOY_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+          ACTION: ""
+          KEY: ""
+          FILES: ""
+          BRANCHES: ""
+          EXCLUDE: ""
