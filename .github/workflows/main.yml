@@ -25,4 +25,5 @@ jobs:
         env:
           exclude: work 99_target
           files: README.md LICENSE
+          branches: 01_02 01_03 01_04
 
