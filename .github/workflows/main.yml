@@ -21,10 +21,8 @@ jobs:
         with:
           fetch-depth: 0
       - name: Copy To Branches Action
-        uses: planetoftheweb/copy-to-branches@0.9.77
+        uses: planetoftheweb/copy-to-branches@v0.9.78-alpha
         env:
           exclude: work 99_target
-          files: README.md LICENSE
-          branches: 01_02 01_03 01_04
-          key: master
+          files: README.md
 
