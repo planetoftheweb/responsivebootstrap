@@ -21,4 +21,4 @@ jobs:
         with:
           fetch-depth: 0
       - name: Copy To Branches Action
-        uses: planetoftheweb/copy-to-branches@0.9.64
+        uses: planetoftheweb/copy-to-branches@0.9.65
