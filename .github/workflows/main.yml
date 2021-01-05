@@ -21,7 +21,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Copy To Branches Action
-        uses: planetoftheweb/copy-to-branches@0.9.74
+        uses: planetoftheweb/copy-to-branches@0.9.75
         env:
           github_username: planetoftheweb
           github_email: ray@planetoftheweb.com
