@@ -22,6 +22,3 @@ jobs:
           fetch-depth: 0
       - name: Copy To Branches Action
         uses: planetoftheweb/copy-to-branches@0.9.64
-        with:
-          email: ray@planetoftheweb.com
-          username: planetoftheweb
