@@ -21,7 +21,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Copy To Branches Action
-        uses: planetoftheweb/copy-to-branches@0.9.72
+        uses: planetoftheweb/copy-to-branches@0.9.71
         env:
           exclude: work 99_target
 
