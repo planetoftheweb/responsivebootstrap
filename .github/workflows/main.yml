@@ -24,4 +24,5 @@ jobs:
         uses: planetoftheweb/copy-to-branches@0.9.77
         env:
           exclude: work 99_target
+          files: README.md LICENSE
 
