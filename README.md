@@ -1,4 +1,4 @@
-# Bootstrap: Responsive Single-Page Design
+# Bootstrap Layouts: Responsive Single-Page Design
 This is the repository for my course Bootstrap Layouts: Responsive Single-Page Design. The full course is available on [LinkedIn Learning](https://www.linkedin.com/learning/bootstrap-layouts-responsive-single-page-design?trk=insiders_6787408_learning)
 
 Find out how Bootstrap can transform your standard HTML websites into inspired single-page designs. This course is a project-based approach to learning how to manipulate website layouts with the Bootstrap framework. Staff author Ray Villalobos tackles Bootstrap's layout classes, like containers, rows, and columns, and shows what it takes to customize Bootstrap's CSS and address layout challenges like multiple grids and columns. Plus, learn how to track navigation as users scroll, with the ScrollSpy plugin, and create a full-screen, responsive image carousel.
