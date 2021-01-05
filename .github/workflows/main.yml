@@ -23,7 +23,5 @@ jobs:
       - name: Copy To Branches Action
         uses: planetoftheweb/copy-to-branches@0.9.77
         env:
-          github_username: planetoftheweb
-          github_email: ray@planetoftheweb.com
           exclude: work 99_target
 
