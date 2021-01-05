@@ -23,4 +23,5 @@ jobs:
       - name: Copy To Branches Action
         uses: planetoftheweb/copy-to-branches@0.9.72
         env:
-          EXCLUDE: work 99_target
+          exclude: work 99_target
+
