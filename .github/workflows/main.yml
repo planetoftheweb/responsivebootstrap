@@ -9,7 +9,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Copy To Branches Action
-        uses: planetoftheweb/copy-to-branches
+        uses: planetoftheweb/copy-to-branches@v0.9.809-alpha
         env:
           exclude: work 99_target
           files: README.md
